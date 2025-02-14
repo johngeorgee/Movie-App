@@ -1,0 +1,12 @@
+.card{
+    transition: 0.2s ;
+}
+.card:hover{
+    border: 2px solid rgb(104, 4, 4);
+}
+.card:hover .card-title{
+    color: red;
+}
+.card-body{
+    color:rgb(11, 104, 185)
+}

@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(/assests/images/background-login.gif);
+}
+.container {
+    position: relative;
+    width: 420px;
+    background-color: rgb(134, 30, 30);
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.container h1 {
+    font-size: 30px;
+    text-align: center;
+}
+input {
+    width: 95%;
+    background: transparent;
+    border: none;
+    border: 2px solid rgb(7, 117, 151);
+    border-radius: 40px;
+    padding: 5px;
+}
+input::placeholder{
+    color: aliceblue;
+}
+button, .btn{
+    background-color: white;
+    width: 360px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    display: block;
+
+}
+
+button a, a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+button a:hover , a:hover {
+color: blue;
+}
+.btn {
+    text-align: center;
+
+}
+/* #submit {
+    border: none;
+    background-color: white;
+    width: 150px;
+} */
+#register{
+    border: none;
+    background-color: white;
+    width: 150px;
+}
+h1{
+    color: blue;
+    margin: 10px;
+}
+
+label{
+    color:black
+}
+span{
+    color: red;
+    text-align: center;
+}
+
+
